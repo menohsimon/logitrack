@@ -1,0 +1,3 @@
+{
+  "extends": "@logitrack/config/tsconfig.base.json"
+}

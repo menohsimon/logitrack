@@ -1,0 +1,3 @@
+{
+  "buildCommand": "if [ -d packages/backend ]; then cd packages/backend; else cd ../../packages/backend; fi && pnpm exec convex deploy --cmd-url-env-var-name NEXT_PUBLIC_CONVEX_URL --cmd 'cd ../.. && turbo run build'"
+}

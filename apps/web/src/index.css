@@ -1,0 +1,36 @@
+@import "@logitrack/ui/globals.css";
+@import "leaflet/dist/leaflet.css";
+
+:root {
+	--mobile-card-radius: 1.25rem;
+}
+
+.leaflet-container {
+	font: inherit;
+}
+
+.logitrack-map-marker {
+	width: 18px;
+	height: 18px;
+	border: 3px solid white;
+	border-radius: 9999px;
+	box-shadow: 0 6px 16px rgb(15 23 42 / 0.25);
+}
+
+.logitrack-map-marker--pickup {
+	background: #059669;
+}
+
+.logitrack-map-marker--destination {
+	background: #dc2626;
+}
+
+.logitrack-map-marker--current {
+	background: #2563eb;
+}
+
+.logitrack-map-marker--pin {
+	width: 20px;
+	height: 20px;
+	background: #111827;
+}

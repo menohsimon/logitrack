@@ -1,0 +1,22 @@
+{
+	"name": "@logitrack/backend",
+	"version": "1.0.0",
+	"description": "",
+	"license": "ISC",
+	"author": "",
+	"scripts": {
+		"check-types": "tsc --noEmit -p convex/tsconfig.json",
+		"dev": "convex dev",
+		"dev:setup": "convex dev --configure --until-success"
+	},
+	"dependencies": {
+		"convex": "catalog:",
+		"dotenv": "catalog:",
+		"zod": "catalog:"
+	},
+	"devDependencies": {
+		"@logitrack/config": "workspace:*",
+		"@types/node": "^24.3.0",
+		"typescript": "catalog:"
+	}
+}
